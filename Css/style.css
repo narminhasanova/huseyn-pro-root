@@ -1,0 +1,27 @@
+.karusel-section {
+    padding: 0px;
+}
+
+.karusel-imgs img {
+    height: 670px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.items-section img {
+    width: 192px;
+    height: 192px;
+}
+
+.item {
+    text-align: center;
+}
+
+.valid {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    margin: 5px;
+}
