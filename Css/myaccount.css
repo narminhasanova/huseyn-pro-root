@@ -5,3 +5,9 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.book{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+}

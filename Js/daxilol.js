@@ -12,7 +12,8 @@ loginForm.addEventListener('submit', function (e) {
             if (password.value == arr[i].password) {
                 alert('Hesaba ugurla daxil oldunuz!');
                 localStorage.setItem("CurrentUser", arr[i].firstname)
-                localStorage.setItem("UserEmail", arr[i].email)
+                // localStorage.setItem("UserEmail", arr[i].email)
+                localStorage.setItem('userIndex', i);
                 window.location.assign("../index.html")
             } else {
                 alert('Yanlish parol!');
